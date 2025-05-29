@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src {{webview.cspSource}}; script-src {{webview.cspSource}}; font-src {{webview.cspSource}};">
+    <title>Word Management</title>
+    <link rel="stylesheet" type="text/css" href="{{styleUri}}">
+</head>
+<body>
+    <h1>Word Management</h1>
+
+    <div id="add-edit-section">
+        <h2 id="form-title">Add New Word</h2>
+        <form id="word-form">
+            <input type="hidden" id="original-key-input">
+            <div>
+                <label for="key-input">Key:</label>
+                <input type="text" id="key-input" required>
+            </div>
+            <div>
+                <label for="value-input">Value:</label>
+                <input type="text" id="value-input" required>
+            </div>
+            <button type="submit" id="save-word-button">Save Word</button>
+            <button type="button" id="cancel-edit-button" style="display:none;">Cancel Edit</button>
+        </form>
+    </div>
+
+    <h2>Registered Words</h2>
+    <div id="search-inputs">
+      <input type="text" id="search-variable-input" placeholder="Search words by key or value...">
+    </div>
+    <ul id="word-list"></ul>
+
+    <script src="{{scriptUri}}"></script>
+</body>
+</html>
