@@ -9,7 +9,7 @@
 
 この拡張機能は、執筆効率を向上させるための以下の主要な機能を提供します。
 
-![demo_movie](docs/recoding.gif)
+![demo_movie](https://github.com/emoclework/vairiable-text-extention-vscode/blob/main/docs/recoding.gif)
 
 ### 1. プレースホルダーによる動的テキスト管理
 

@@ -3,6 +3,10 @@
   "displayName": "novel-extention",
   "description": "Transforms text using registered words and manages these words.",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emoclework/vairiable-text-extention-vscode.git"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -63,7 +67,7 @@
         {
           "when": "editorTextFocus",
           "command": "customTextTransformer.transformAndSaveFile",
-          "group": "navigation@5" 
+          "group": "navigation@5"
         }
       ],
       "view/title": [
@@ -73,9 +77,7 @@
           "group": "navigation"
         }
       ],
-      "view/item/context": [
-        
-      ]
+      "view/item/context": []
     },
     "viewsContainers": {
       "activitybar": [
@@ -109,17 +111,20 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.85.0",
     "@types/mocha": "^10.0.6",
     "@types/node": "20.x",
+    "@types/vscode": "^1.85.0",
     "@typescript-eslint/eslint-plugin": "^8.31.1",
     "@typescript-eslint/parser": "^8.31.1",
-    "eslint": "^9.25.1",
-    "typescript": "^5.8.3",
-    "ts-loader": "^9.5.2",
-    "webpack": "^5.99.7",
-    "webpack-cli": "^6.0.1",
     "@vscode/test-cli": "^0.0.4",
-    "@vscode/test-electron": "^2.3.9"
+    "@vscode/test-electron": "^2.3.9",
+    "eslint": "^9.25.1",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "@vscode/vsce": "^3.4.2"
   }
 }
