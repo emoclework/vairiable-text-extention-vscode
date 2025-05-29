@@ -9,7 +9,7 @@ let timeout: NodeJS.Timeout | undefined = undefined;
 // Decoration type for resolved placeholders (original text hidden, value shown)
 const resolvedDecorationType = vscode.window.createTextEditorDecorationType({
     after: {
-        margin: '0 0.2em 0 0.5em', // 右側に0.2emのマージンを追加して後続テキストとの間に空間を作る
+        margin: '0 0.2em 0 0.2em', // 右側に0.2emのマージンを追加して後続テキストとの間に空間を作る
         color: new vscode.ThemeColor('editor.foreground'),
     },
     textDecoration: 'none; display: none;' // 元のテキストを非表示にする (Hide original text)
