@@ -1,8 +1,9 @@
 {
-  "name": "novel-extention",
-  "displayName": "novel-extention",
+  "publisher": "emoclework",
+  "name": "live-text-variables",
+  "displayName": "live-text-variables",
   "description": "Transforms text using registered words and manages these words.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/emoclework/vairiable-text-extention-vscode.git"
