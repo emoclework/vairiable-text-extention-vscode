@@ -5,11 +5,13 @@
 
 ※テキストファイルに対して利用できるため、小説以外にも適用できます。
 
+拡張機能は[こちら](https://marketplace.visualstudio.com/items?itemName=emoclework.live-text-variables)からインストールできます。
+
 ## Features
 
 この拡張機能は、執筆効率を向上させるための以下の主要な機能を提供します。
 
-![demo_movie](https://github.com/emoclework/vairiable-text-extention-vscode/blob/main/docs/recoding.gif)
+<img src="https://github.com/user-attachments/assets/e264dafb-f277-49b9-a922-3acf7f5dddb3">
 
 ### 1. プレースホルダーによる動的テキスト管理
 
